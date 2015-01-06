@@ -8,7 +8,7 @@
   
 ## Installation
 
-    $ npm install metalsmith-swig-helpers --save
+    $ npm install --save git://github.com/madeofpeople/metalsmith-swig-helpers
 
 ## CLI Usage
 
