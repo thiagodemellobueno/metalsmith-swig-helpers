@@ -17,7 +17,37 @@
   "license": "MIT",
   "main": "index.js",
   "devDependencies": {
-    "swig": "^1.4.2",
+{
+  "name": "metalsmith-swig-helpers",
+  "description": "Create some swig helper functions in the swig global.",
+  "author": {
+    "name": "Thiago de Mello Bueno",
+    "email": "thiago@madeofpeople.org"
+  },
+  "version": "0.0.1",
+  "repository": {
+    "url": "git@github.com:madeofpeople/metalsmith-swig-helpers.git"
+  },
+  "keywords": [
+    "metalsmith-plugin",
+    "metadata",
+    "meta"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "underscore.string": "^2.3.3",
+    "swig": "^1.4.2"
+  },
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/madeofpeople/metalsmith-swigh-helpers/issues"
+  },
+  "homepage": "https://github.com/madeofpeople/metalsmith-swigh-helpers",
+  "_id": "metalsmith-swig-helpers@0.0.1",
+  "_from": "metalsmith-swig-helpers@"
+}
+    "swig": "^1.4.2"
   },
   "readmeFilename": "README.md",
   "bugs": {
