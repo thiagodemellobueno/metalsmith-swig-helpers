@@ -7,9 +7,9 @@
     "url": "git@github.com:madeofpeople/metalsmith-swig-helpers.git"
   },
   "keywords": [
+    "metalsmith",
     "metalsmith-plugin",
-    "metadata",
-    "meta"
+    "swig"
   ],
   "license": "MIT",
   "main": "index.js",
