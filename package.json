@@ -2,7 +2,7 @@
   "name": "metalsmith-swig-helpers",
   "description": "Create some swig helper functions in the swig global.",
   "author": "Thiago de Mello Bueno <thiago@madeofpeople.org>",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "repository": {
     "url": "git@github.com:madeofpeople/metalsmith-swig-helpers.git"
   },
