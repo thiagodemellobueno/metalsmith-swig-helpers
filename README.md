@@ -3,8 +3,9 @@
 
   A metalsmith plugin to add helpers to swig.
   
-  At the moment it uses _.string to create the slug filter.
-  
+  At the moment all it does is provide a {{varName|slug}} filter using _.string
+
+  Suggestions are welcome, implementing https://www.npmjs.com/package/swig-extras is next.  
   
 ## Installation
 
