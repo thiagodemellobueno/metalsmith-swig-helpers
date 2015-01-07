@@ -1,11 +1,7 @@
-
 {
   "name": "metalsmith-swig-helpers",
   "description": "Create some swig helper functions in the swig global.",
-  "author": {
-    "name": "Thiago de Mello Bueno",
-    "email": "thiago@madeofpeople.org"
-  },
+  "author": "Thiago de Mello Bueno <thiago@madeofpeople.org>",
   "version": "0.0.1",
   "repository": {
     "url": "git@github.com:madeofpeople/metalsmith-swig-helpers.git"
@@ -21,11 +17,12 @@
     "underscore.string": "^2.3.3",
     "swig": "^1.4.2"
   },
-  "readmeFilename": "README.md",
   "bugs": {
     "url": "https://github.com/madeofpeople/metalsmith-swigh-helpers/issues"
   },
   "homepage": "https://github.com/madeofpeople/metalsmith-swigh-helpers",
-  "_id": "metalsmith-swig-helpers@0.0.1",
-  "_from": "metalsmith-swig-helpers@"
+  "_from": "metalsmith-swig-helpers@",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
