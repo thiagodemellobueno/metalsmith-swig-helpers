@@ -15,7 +15,8 @@
   "main": "index.js",
   "dependencies": {
     "underscore.string": "^2.3.3",
-    "swig": "^1.4.2"
+    "swig": "^1.4.2",
+    "debug": "^2.1.1"
   },
   "bugs": {
     "url": "https://github.com/madeofpeople/metalsmith-swigh-helpers/issues"
