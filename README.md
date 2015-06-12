@@ -35,6 +35,31 @@ metalsmith
 .use(templates('swig'));
 ```
 
+### Filters
+
+Add your own filters dynamically with either a function, or a require() string.
+
+```js
+var swigHelpers = require('metalsmith-swig-helpers');
+var templates = require('metalsmith-templates');
+metalsmith
+.use(swig-helpers({
+  filters: {
+    // Append a ! at the end of the given content.
+    // {{ title|exclamation }}
+    "exclamation": function(content) {
+      return content + "!"
+    },
+
+    // Encryption filter
+    // {{ title|xorcrypt }}
+    "xorcrypt": "xor-crypt" // Does a require() on "xor-crypt"
+  }
+}))
+.use(templates('swig'));
+```
+
+
 ## License
 
   MIT
