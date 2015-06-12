@@ -24,6 +24,14 @@
   "homepage": "https://github.com/madeofpeople/metalsmith-swigh-helpers",
   "_from": "metalsmith-swig-helpers@",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter spec"
+  },
+  "devDependencies": {
+    "assert-dir-equal": "^1.0.1",
+    "metalsmith": "^1.7.0",
+    "metalsmith-templates": "^0.7.0",
+    "mocha": "^2.2.5",
+    "rimraf": "^2.4.0",
+    "xor-crypt": "0.0.2"
   }
 }
