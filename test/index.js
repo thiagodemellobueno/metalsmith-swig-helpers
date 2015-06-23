@@ -1,16 +1,18 @@
 
-var equal = require('assert-dir-equal');
-var swigHelpers = require('..');
-var templates = require('metalsmith-templates');
-var Metalsmith = require('metalsmith');
-var rm = require('rimraf').sync;
+var equal = require('assert-dir-equal'),
+    swigHelpers = require('..'),
+    Metalsmith = require('metalsmith'),
+    templates = require('metalsmith-templates'),
+    markdown = require('metalsmith-markdown'),
+    rm = require('rimraf').sync;
 
-describe('metalsmith-ignore', function(){
+describe('metalsmith-swig-helpers', function(){
 
   it('should register swig helpers', function(done){
     rm('test/fixtures/simple/build');
     var m = Metalsmith('test/fixtures/simple')
       .use(swigHelpers({}))
+      .use(markdown({}))
       .use(templates({
         engine: 'swig',
         directory: 'templates'
@@ -31,6 +33,7 @@ describe('metalsmith-ignore', function(){
           "xorcrypt": "xor-crypt"
         }
       }))
+      .use(markdown({}))
       .use(templates({
         engine: 'swig',
         directory: 'templates'
