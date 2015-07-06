@@ -2,6 +2,7 @@
 <body>
 Title: {{ title }}
 Slug: {{ title|slug }}
+Limit: {{ title|limit(5) }}
 
 {{contents|safe}}
 </body>
